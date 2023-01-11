@@ -1,0 +1,33 @@
+.MyBlogs {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.BloglistCard {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    /* border: 1px solid rgb(0, 0, 0); */
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.BlogImageCard {
+    border-radius: 10px;
+    /* filter: saturate(0.5); */
+    filter:hue-rotate(20deg);
+}
+
+.BlogLinks {
+    justify-content: space-between;
+    display: flex;
+    text-decoration: underline;
+    color:rgb(0, 46, 252);
+    cursor: pointer;
+    font-size: 17px;
+}

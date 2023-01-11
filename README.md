@@ -5,7 +5,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=muhammad-juman-jarwar&label=Profile%20views&color=0e75b6&style=flat" alt="muhammad-juman-jarwar" /> </p>
 
-- 🔭 I’m currently working on **Mind (School Website)**
+- 🔭 I’m currently working on **(Blog Website)**
 
 - 🌱 I’m currently learning **React Redux and Redux Toolkit**
 
