@@ -3,6 +3,9 @@ import Card from "react-bootstrap/Card";
 import BlogImage1 from "./iguana.jpg";
 import classes from "./Blog.module.css";
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
+import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
+import CommentOutlinedIcon from '@mui/icons-material/CommentOutlined';
+import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
 
 const BlogList = () => {
   return (
@@ -22,12 +25,11 @@ const BlogList = () => {
           
           <div className={classes.BlogLinks}>
             <div>
-            <svg data-testid="FavoriteBorderOutlinedIcon"></svg>
+            <a href="#"><FavoriteBorderOutlinedIcon /></a>
+            <a href="#"><ShareOutlinedIcon /></a>
+            <a href="#"><CommentOutlinedIcon /></a>
             </div>
-            <div>
-            <a href="#">Share</a>
-            <a href="#">Learn More</a>
-            </div>
+            <a href="#"><KeyboardArrowDownOutlinedIcon /></a>
           </div>
         </Card.Body>
         <Card.Footer>

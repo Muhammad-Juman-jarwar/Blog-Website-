@@ -26,8 +26,8 @@
 .BlogLinks {
     justify-content: space-between;
     display: flex;
-    text-decoration: underline;
-    color:rgb(0, 46, 252);
+    text-decoration: none;
+    color:rgb(0, 0, 0);
     cursor: pointer;
     font-size: 17px;
 }
