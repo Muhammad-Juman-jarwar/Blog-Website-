@@ -1,0 +1,30 @@
+.imageWithText {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sideimageself {
+    height: 600px;
+    width: 100%;
+    padding:0 1rem;
+    /* min-width:100% ; */
+}
+
+@media screen and (max-width: 768px) {
+    .imageWithText {
+        display: block;
+        align-items: center;
+        /* margin: 0 auto; */
+        /* max-width: 100px; */
+        /* height: 50%;*/
+        /* width: 100%; */
+        /* padding: 0 1rem; */
+        /* margin-bottom: 2rem; */
+        /* margin-top: 2rem; */
+    }
+}

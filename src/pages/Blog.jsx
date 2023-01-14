@@ -12,16 +12,6 @@ const Blog = () => {
         <BlogList />
         <BlogList />
         </CardGroup>
-        <CardGroup>
-        <BlogList />
-        <BlogList />
-        <BlogList />
-        </CardGroup>
-        <CardGroup>
-        <BlogList />
-        <BlogList />
-        <BlogList />
-        </CardGroup>
     </React.Fragment>
   );
 };

@@ -9,7 +9,7 @@ import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutl
 import React, { useState } from 'react';
 import Collapse from 'react-bootstrap/Collapse';
 
-const BlogList = () => {
+const FeaturedBlogs = () => {
 
   const [open, setOpen] = useState(false);
   const [upArrow, setUpArrow] = useState();
@@ -63,4 +63,4 @@ const BlogList = () => {
     </React.Fragment>
   );
 };
-export default BlogList;
+export default FeaturedBlogs;
