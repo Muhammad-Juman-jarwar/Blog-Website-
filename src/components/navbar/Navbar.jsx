@@ -14,7 +14,7 @@ import AdbIcon from "@mui/icons-material/Adb";
 import { styled, alpha } from "@mui/material/styles";
 import InputBase from "@mui/material/InputBase";
 
-const pages = ["Home", "website", "Pricing", "Blog"];
+const pages = ["Home", "Blogs", "About", "Contact"];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

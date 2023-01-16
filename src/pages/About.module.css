@@ -1,0 +1,27 @@
+.imageText{
+    /* box-sizing: border-box; */
+    /* height: 500px; */
+    display: inline-block;
+    height: auto;
+    width: 100%;
+
+}
+
+.aboutThumb {
+    display: inline-block;
+    width: 45%;
+    margin: 1rem;
+}
+
+.personImg {
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+}
+
+.aboutContent {
+    display: inline-block;
+    width: 45%;
+    margin: 1rem;
+}

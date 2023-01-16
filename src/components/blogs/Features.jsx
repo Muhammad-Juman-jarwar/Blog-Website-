@@ -1,7 +1,7 @@
 import React from 'react';
-import classes from '../components/blogs/Blog.module.css';
+import classes from './Blog.module.css';
 import { CardGroup } from 'react-bootstrap';
-import FeaturedBlogs from '../components/blogs/FeaturedBlogs';
+import FeaturedBlogs from './FeaturedBlogs';
 
 const Features = () => {
   return (

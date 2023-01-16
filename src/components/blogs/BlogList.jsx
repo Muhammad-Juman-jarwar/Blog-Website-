@@ -8,6 +8,7 @@ import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDown
 import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutlined';
 import React, { useState } from 'react';
 import Collapse from 'react-bootstrap/Collapse';
+import Button from '@mui/material/Button';
 
 const BlogList = () => {
 
@@ -23,7 +24,7 @@ const BlogList = () => {
     <React.Fragment>
       <Card className={classes.BloglistCard}>
         <Card.Img
-          className={classes.BlogImageCard}
+          className={classes.BlogImagesCards}
           variant='top'
           src={BlogImage1}
         />
@@ -53,6 +54,7 @@ const BlogList = () => {
                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
                   terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
                   labore wes anderson cred nesciunt sapiente ea proident.
+                <Button variant="text">Learn More</Button>
                 </div>
               </Collapse>
         </Card.Body>

@@ -9,7 +9,7 @@ const Footer = () => {
           <h3>
             Company<span>logo</span>
           </h3>
-          
+
           <div className='footer-links'>
             <a href='#' className='link-1'>
               Home
@@ -23,17 +23,17 @@ const Footer = () => {
         </div>
         <div className='footer-center'>
           <div>
-            <i className='fa fa-map-marker' />
+            <i className='fa-solid fa-location-dot' />
             <p>
-              <span>444 S. Cedros Ave</span> Solana Beach, California
+              444 S. Cedros Ave <br /> Solana Beach, California
             </p>
           </div>
           <div>
-            <i className='fa fa-phone' />
+            <i className='fa-sharp fa-solid fa-phone' />
             <p>+1.555.555.5555</p>
           </div>
           <div>
-            <i className='fa fa-envelope' />
+            <i className='fa-sharp fa-solid fa-envelope' />
             <p>
               <a href='#'>support@company.com</a>
             </p>
@@ -59,7 +59,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <p className="para">Copyrgiht © Muhammad Juman: All Rights Reserved </p>
+        <p className='para'>Copyrgiht © Muhammad Juman: All Rights Reserved </p>
       </footer>
     </React.Fragment>
   );

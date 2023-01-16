@@ -1,6 +1,6 @@
 import React from 'react';
-import BlogList from '../components/blogs/BlogList';
-import classes from '../components/blogs/Blog.module.css';
+import BlogList from './BlogList';
+import classes from './Blog.module.css';
 import { CardGroup } from 'react-bootstrap';
 
 const Blog = () => {

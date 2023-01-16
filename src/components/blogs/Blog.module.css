@@ -18,10 +18,19 @@
     background-color: rgb(255, 255, 255);
 }
 
-.BlogImageCard {
+.BlogImagesCards {
     border-radius: 10px;
+    height: 200px;
+    object-fit:inherit ;
     /* filter: saturate(0.5); */
     filter:hue-rotate(20deg);
+    transition: filter 1s ease-in-out;
+    filter: grayscale(0);
+}
+
+.BlogImagesCards:hover {
+    transition: filter 1s ease-in-out;
+    filter: grayscale(0.5);
 }
 
 .BlogLinks {
@@ -37,3 +46,73 @@
     color: rgb(88, 86, 86);
     text-align: center;
 }
+
+.blogDetailsDiv {
+    display: flex;
+    flex-direction: column;
+    /* flex-grow:calc(2) ; */
+    width: 60%;
+    margin-left: 20%;
+    /* background-color: #0A58CA; */
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    color: #0A58CA;
+    font-size: 2rem;
+}
+
+.AuthorDatePara {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% 10% 0 10%;
+}
+
+.Author {
+    font-size: 1rem;
+    color: #0a57cac9;
+    font-weight: bold;
+    
+}
+
+.Date {
+    font-size: 1rem;
+    
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.longpara {
+    text-align: justify;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.footericons {
+    /* align-items: center; */
+    text-align:right;
+    margin-right: 20%;
+    /* justify-content: end; */
+}
+
+.footericons h4 {
+    color: #0A58CA;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.footericons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:rgb(25,118,210) ;
+    border-radius: 2px;
+    font-size: 1.7rem;
+    color: rgba(255, 255, 255);
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.4rem;
+    margin-bottom: 1rem;
+  }
