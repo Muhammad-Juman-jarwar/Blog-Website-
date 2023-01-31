@@ -15,13 +15,14 @@
     width: 65%;
     background-color: brown;
     display: inline-block;
+    /* margin: 0; */
     /* height: 100%; */
 }
 
 .col33 {
     display: inline-block;
     width: 35%;
-    height: 100%;
+    /* height: 100%; */
     /* width: 100%; */
 }
 
@@ -34,7 +35,7 @@
 }
 
 .blogpost {
-    display: inline-block;
+    /* display: inline-block; */
     margin-top: 1rem;
     width: 100%;
 
